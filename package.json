@@ -15,7 +15,7 @@
     "password"
   ],
   "author": "Lorenzo Vernazza",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/LorenzoVernazza/PasswordGenerator/issues"
   },
