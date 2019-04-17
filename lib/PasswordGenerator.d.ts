@@ -18,7 +18,12 @@ declare class PasswordGenerator {
         lowerCase?: string,
         numbers?: string,
         specials?: string,
-        length?: number
+        length?: number,
+        ensureLowerCase?: boolean,
+        ensureUpperCase?: boolean,
+        ensureNumbers?: boolean,
+        ensureSpecials?: boolean,
+        ensureCustom?: string
     })
 
 	/**

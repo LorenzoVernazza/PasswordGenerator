@@ -2,5 +2,10 @@
 	"letters": "abcdefghijklmnopqrstuvwzyz",
 	"numbers": "1234567890",
 	"specials": "-+().!?=",
+	"ensureLowerCase": true,
+	"ensureUpperCase": true,
+	"ensureNumbers": true,
+	"ensureSpecials": true,
+	"ensureCustom": "",
 	"length": 12
 }
