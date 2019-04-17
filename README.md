@@ -33,7 +33,6 @@ const PSWGenerator = require('vrn-password-generator');
 const generator = new PSWGenerator(defaultOptions);
 var password = generator.newPassword // Returns a new password each time with at least one upperCase, one lowerCase, one number, one special char.
 ```
-
 ```javascript
 const generator2 = new PSWGenerator({
 	letters: "a",
@@ -44,12 +43,12 @@ const generator2 = new PSWGenerator({
 generator2.generate() // Returns some combination of "a" and "-" (length: 12). For example: "a--aaa-aa---".
 ```
 ```javascript
-generator.scramble('abcd') // Scrambles "abcd" and returns it. For example: "bcda".
-```
-```javascript
-generator.random(50, 10) // Returns a random number between 10 and 50. For example: 42.
-```
-```javascript
 generator2.randomChar() // Returns a random char from set, in this case only "a" or "-".
 generator2.randomChar('abcde.,!') // Returns a random char from "abcde.,!" set.
+```
+```javascript
+PSWGenerator.scramble('abcd') // Scrambles "abcd" and returns it. For example: "bcda".
+```
+```javascript
+PSWGenerator.random(50, 10) // Returns a random number between 10 and 50. For example: 42.
 ```

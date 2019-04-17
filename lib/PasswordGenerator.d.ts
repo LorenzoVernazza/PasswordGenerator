@@ -30,9 +30,16 @@ declare class PasswordGenerator {
      * Scrambles and returns an array or a string
      * @param {string|any[]} input
      */
-    static scramble(input: string): string;
-    static scramble(input: any[]): any[];
+     static scramble(input: string): string;
+     static scramble(input: any[]): any[];
 
+	/**
+     * Returns a random number between max and min, implements crypto for a better generation, but is limited at 256 values.
+     * @param {number} max Defaults at 1
+     * @param {number} min Defaults at 0
+     */
+     static smallRandom(max?: number, min?: number): number;
+     
 	/**
      * Returns a random number between max and min
      * @param {number} max Defaults at 1
