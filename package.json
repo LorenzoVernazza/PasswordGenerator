@@ -1,0 +1,23 @@
+{
+  "name": "vrn-password-generator",
+  "version": "1.0.0",
+  "description": "Minimalistic Password generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --eval console.log((new(require('.'))).newPassword)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LorenzoVernazza/PasswordGenerator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "password"
+  ],
+  "author": "Lorenzo Vernazza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LorenzoVernazza/PasswordGenerator/issues"
+  },
+  "homepage": "https://github.com/LorenzoVernazza/PasswordGenerator#readme"
+}

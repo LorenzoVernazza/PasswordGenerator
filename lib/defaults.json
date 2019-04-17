@@ -1,0 +1,6 @@
+{
+	"letters": "abcdefghijklmnopqrstuvwzyz",
+	"numbers": "1234567890",
+	"specials": "-+().!?=",
+	"length": 12
+}
